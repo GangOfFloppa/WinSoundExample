@@ -14,5 +14,6 @@ if __name__ == "__main__":
         exit(445)
     else:
         print("FAILED!!!")
+        winsound.PlaySound(None, winsound.SND_PURGE)
         while True:
             time.sleep(0.7)
