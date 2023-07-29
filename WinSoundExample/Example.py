@@ -1,7 +1,7 @@
 import winsound
 import os
 import sys
-
+import time
 def GetSoundName():
     return "SudnoBoris.wav"
 def PlaySound():
@@ -14,3 +14,5 @@ if __name__ == "__main__":
         exit(445)
     else:
         print("FAILED!!!")
+        while True:
+            time.sleep(0.7)
